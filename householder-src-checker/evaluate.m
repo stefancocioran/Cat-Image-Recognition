@@ -23,5 +23,5 @@ function [percentage] = evaluate(path_to_testset, w, histogram, count_bins)
     endif
   endfor
 
-  percentage = nr / N;
+  percentage = nr / N
 endfunction
